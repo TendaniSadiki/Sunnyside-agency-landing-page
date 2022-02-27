@@ -14,7 +14,7 @@ body{
     background-color: yellow;
     }
     nav{
-
+        
     }
     main{
     
@@ -58,13 +58,14 @@ body{
 nav {
     margin-right: 16px;  
 }
-a {
+nav a {
     margin-right: 16px;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     padding: 10px;
 }
-a:hover{
+nav a:hover{
+    cursor: pointer;
     border-radius: 15px;
     background-color: hsl(198, 62%, 26%);
     padding: 10px;
@@ -96,6 +97,28 @@ main .textContent{
 main .secTextContent{
     width: 40%;
     margin-right: 30%;
+    
+}
+main .secTextContent p{
+        padding: 35px;
+        
+
+    
+} 
+main .secTextContent a{
+    border-bottom:hsl(7, 99%, 70%)  5px groove;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+main .textContent a{
+    border-bottom:5px groove hsl(51, 100%, 49%) ;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+main .textContent p{
+    padding: 35px;
 }
 main h1{
     font-weight: bold;
@@ -111,6 +134,12 @@ main h1{
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
+  } 
+  #photography{
+    color: hsl(198, 62%, 26%); 
+  }
+  .contentContainer h3{
+      color: hsl(167, 40%, 24%);
   }
   main h3{
       margin-bottom: 20px;
