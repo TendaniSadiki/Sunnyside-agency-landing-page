@@ -11,7 +11,6 @@ body{
     Font-size: 18px;
     
 }
-.
 .imageHeader h1{
   position: absolute;
   top: 25%;
@@ -87,16 +86,21 @@ main .secTextContent p{
     
 } 
 main .secTextContent a{
-    border-bottom:hsl(7, 99%, 70%)  5px groove;
     font-weight: bold;
     color: black;
     text-decoration: none;
 }
+main .secTextContent a:hover{
+    border-bottom:hsl(7, 99%, 70%)  5px groove;
+}
 main .textContent a{
-    border-bottom:5px groove hsl(51, 100%, 49%) ;
     font-weight: bold;
     color: black;
     text-decoration: none;
+}
+main .textContent a:hover{
+    border-bottom:5px groove hsl(51, 100%, 49%) ;
+    font-weight: bold;
 }
 main .textContent p{
     padding: 35px;
