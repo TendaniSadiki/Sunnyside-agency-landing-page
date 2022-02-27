@@ -13,6 +13,12 @@ body{
     padding: 0;
     background-color: yellow;
     }
+    nav{
+
+    }
+    main{
+    
+    }
     
 }
 
@@ -66,6 +72,7 @@ a:hover{
 main{
     margin: 0;
     padding-right: 0;
+    
 }
 main .headerImg{
 min-height: 100%;
