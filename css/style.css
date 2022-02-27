@@ -1,5 +1,8 @@
 
 /*Mobile screen*/
+body{
+    font-family: 'Vollkorn', serif;
+}
 @media screen and (max-width: 375px) {
     *{
         margin: 0;
@@ -8,11 +11,12 @@
     body{
     margin: 0;
     padding: 0;
+    background-color: yellow;
     }
-    body{
-        background-color: yellow;
-    }
+    
 }
+
+
 /*Desktop*/
 @media screen and (max-width: 1440px) {
 *{
@@ -22,8 +26,9 @@
 body{
     margin: 0;
     padding: 0;
+    Font-size: 18px;
+    
 }
-
 .imageHeader h1{
   position: absolute;
   top: 25%;
@@ -40,16 +45,12 @@ body{
     height: 80px;
     color: hsl(0, 0%, 100%);
 }
-
-
-
 .logo {
     width: 80px;
     padding: 10px;
 }
 nav {
-    margin-right: 16px;
-    
+    margin-right: 16px;  
 }
 a {
     margin-right: 16px;
@@ -61,7 +62,6 @@ a:hover{
     border-radius: 15px;
     background-color: hsl(198, 62%, 26%);
     padding: 10px;
-    
 }
 main{
     margin: 0;
@@ -69,19 +69,10 @@ main{
 }
 main .headerImg{
 min-height: 100%;
+}
 
-}
-main .headerImg h1{
-    
-}
 main .textContent{
     text-align: center;
-    
-
-}
-main .rightContainer{
-    
-
 }
 table{
     border-spacing: 0px;
@@ -98,7 +89,6 @@ main .textContent{
 main .secTextContent{
     width: 40%;
     margin-right: 30%;
-    
 }
 main h1{
     font-weight: bold;
