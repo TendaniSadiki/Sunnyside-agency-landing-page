@@ -14,7 +14,7 @@ body{
     background-color: yellow;
     }
     nav{
-        
+
     }
     main{
     
@@ -35,6 +35,9 @@ body{
     Font-size: 18px;
     
 }
+.imageHeader{
+    
+}
 .imageHeader h1{
   position: absolute;
   top: 25%;
@@ -50,13 +53,17 @@ body{
     background: rgb(61, 190, 254);
     height: 80px;
     color: hsl(0, 0%, 100%);
+    z-index: 1;
+
 }
 .logo {
     width: 80px;
     padding: 10px;
 }
 nav {
-    margin-right: 16px;  
+    margin-right: 16px;
+    z-index: 1;
+  
 }
 nav a {
     margin-right: 16px;
@@ -122,6 +129,7 @@ main .textContent p{
 }
 main h1{
     font-weight: bold;
+    
 }
 .container {
     position: relative;
@@ -183,5 +191,32 @@ main h1{
  }
  .foodImg{
      width: 100%;
+ }
+
+ footer{
+     background-color: hsl(168, 34%, 41%);
+     text-align: center;
+     
+     
+ }
+ footer table {
+
+ }
+ footer p {
+     text-align: center;
+     color: hsl(212, 27%, 19%);
+     font-weight: bold;
+     padding-top: 50px;
+     
+ }
+ footer a{
+     margin: 15px;
+     padding-top: 50px;
+     color: blue;
+     text-decoration: none;
+    
+ }
+ footer a:hover{
+     color: white;
  }
 }
